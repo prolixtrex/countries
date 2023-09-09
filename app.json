@@ -1,10 +1,26 @@
 {
-  "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
-    },
-    "name": "countries",
-    "slug": "countries"
-  }
+    "expo": {
+        "scheme": "acme",
+        "name": "countries",
+        "slug": "countries",
+        "plugins": ["expo-router"],
+        "extra": {
+            "router": {
+                "origin": false
+            },
+            "eas": {
+                "projectId": "7a280503-0b7d-4329-ae2d-56892f2e35c0"
+            }
+        },
+        "runtimeVersion": "1.0.0",
+        "updates": {
+            "url": "https://u.expo.dev/7a280503-0b7d-4329-ae2d-56892f2e35c0"
+        },
+        "android": {
+            "package": "com.bright89.countries"
+        },
+        "ios": {
+            "bundleIdentifier": "com.bright89.countries"
+        }
+    }
 }
